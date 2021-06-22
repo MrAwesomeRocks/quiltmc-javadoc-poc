@@ -5,3 +5,11 @@
 layout: home
 title: Home
 ---
+
+## Documentation
+
+Here are links to the documentation of QuiltMC's projects:
+
+{% for doc in site.javadocs %}
+- [{{ doc }}]({{ doc | downcase | relative_url }})
+{%- endfor -%}

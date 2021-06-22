@@ -40,6 +40,14 @@ discord_community: https://discord.quiltmc.org
 discord_toolchain: https://discord.quiltmc.org/toolchain
 matrix_url: https://matrix.to/#/+quiltmc:matrix.org
 
+# Javadoc sources (alphabetical)n
+javadocs:
+  - Access-Widener
+  - Loom
+  - Lorenz-Tiny
+  - Quilt-Loader
+  - Tiny-Reampper
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
