@@ -14,11 +14,20 @@ jobs:
       max-parallel: 1
       matrix:
         artifact:
-          - access-widener
-          - loom
-          - lorenz-tiny
-          - quilt-loader
-          - tiny-remapper
+        - access-widener
+        - dev-launch-injector
+        - lorenz-tiny
+        - procyon-quilt-compilertools
+        - procyon-quilt-core
+        - procyon-quilt-expressions
+        - procyon-quilt-reflection
+        - quilt-loader
+        - quilt-loom
+        - sponge-mixin
+        - sponge-mixin-compile-extensions
+        - tiny-mappings-parser
+        - tiny-reampper
+        - yarn
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
