@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"net.fabricmc.api"},{"l":"net.fabricmc.loader.api"},{"l":"net.fabricmc.loader.api.entrypoint"},{"l":"net.fabricmc.loader.api.metadata"}];updateSearchResults();
