@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"net.fabricmc.lorenztiny","l":"TinyMappingFormat"},{"p":"net.fabricmc.lorenztiny","l":"TinyMappingsJoiner"},{"p":"net.fabricmc.lorenztiny","l":"TinyMappingsLegacyWriter"},{"p":"net.fabricmc.lorenztiny","l":"TinyMappingsReader"},{"p":"net.fabricmc.lorenztiny","l":"TinyMappingsWriter"}];updateSearchResults();
