@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First javadocs are added!"
-date:   2021-06-21 19:31:20 -0500
+date:   2021-06-28 10:19:12 -0500
 categories: jekyll update
 ---
 
@@ -12,13 +12,6 @@ The listing for the Javadocs can be found on the [homepage]({{ site.baseurl }}{%
 To add new Javadocs, there are three steps:
 1. Create a new entry in `_config.yml` with a formatted name of the artifact.
 2. Add the lowercase name of the artifact to the Github Action.
-3. Generate the initial Javadoc using the following commands:
-    ```sh
-    $> cd docs
-    $> curl https://maven.quiltmc.org/service/rest/v1/search/assets/download?repository=release&group=GROUP_ID&name=AFTIFACT_ID&maven.classifier=javadoc&sort=version -o javadoc.jar
-    $> unzip javadoc.jar -d AFTIFACT_ID  # ARTIFACT_ID should be lowercase
-    $> rm javadoc.jar
-    $> git add .
-    $> git commit
-    $> git push
-    ```
+3. Push your changes to Github
+4. Run the `Update Docs` Github Action through the manual trigger.
+5. Check if your new docs appear on the site!
