@@ -1,0 +1,4 @@
+net.fabricmc.api
+net.fabricmc.loader.api
+net.fabricmc.loader.api.entrypoint
+net.fabricmc.loader.api.metadata
