@@ -19,6 +19,8 @@ jobs:
           - quilt-loader
           - tiny-remapper
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
       - name: Update docs
         run: |
           rm -rf ./docs/${{ matrix.artifact }}/
